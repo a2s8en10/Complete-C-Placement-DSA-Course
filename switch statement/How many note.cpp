@@ -35,15 +35,24 @@ int main ()
 			}
 			break;
 		
-		case 1 : 
+		case 10 : 
 		
-			while (sum<=1){
-				sum=sum/1;
+			while (sum<=10){
+				sum=sum/10;
 				cout << sum;
 				sum=sum+1;
 			}
 			break;
 			
+		case 1 :
+			
+			while (sum<=1){
+				sum=sum/1;
+				cout << sum;
+				sum=sum+1;
+			}
+			
 	}
+	cout << endl;
 	
 }
