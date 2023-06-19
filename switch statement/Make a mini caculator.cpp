@@ -26,9 +26,11 @@ int main()
 		case '*':	cout << "The multi is = " << (a*b) << endl ;
 					break;
 		
-		case '%':	cout << "The modulos is " << (a%b) << endl ;
+		case '%':	cout << "The modulos is = " << (a%b) << endl ;
 					break;
-					
+
+		case '/':	cout << "The divide is = "	<<(a/b) << endl ;
+					break;			
 		
 		default :	cout << "Enter the valid opretion." << endl ; 						
 					 		  
