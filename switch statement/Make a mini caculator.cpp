@@ -35,5 +35,7 @@ int main()
 		default :	cout << "Enter the valid opretion." << endl ; 						
 					 		  
 	}
+	return 0;
+	
 	
 }
