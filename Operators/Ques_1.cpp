@@ -2,12 +2,14 @@
 using namespace std;
 int main()
 {
-	
+	int n;
+	cout << "Enter the number : ";
+	cin >> n;
 	int i;
 	
-	for (i=0; i<=15; i+=2)
+	for (i=0; i<=n; i+=2)
 	{
-		cout << i << "";
+		cout << i << " ";
 		
 		if (i&1)
 		{
