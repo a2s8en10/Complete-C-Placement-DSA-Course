@@ -6,14 +6,14 @@ int main()
 	cout << "Enter the number :";  
 	cin >> n;
 	
-	int i = 1 ;//row
+	int i = 1 ;//  i is doneted by ROW
 	while(i<=n)
 	{
-		int j = 1; // col
+		int j = 1; // j is doneted by COLOUM 
 		while(j<=i)
 		{	
 			int value;
-			cout << "*";
+			cout << " * ";
 			j = j + 1;
 		}
 		cout << endl;
