@@ -6,17 +6,17 @@ int main()
 	cout << "Enter the number :";  
 	cin >> n;
 	
-	int i = 1 ;//  i is doneted by ROW
-	while(i<=n)
+	int row = 1 ;//  i is doneted by ROW
+	while(row <= n)
 	{
-		int j = 1; // j is doneted by COLOUM 
-		while(j<=i)
+		int col = 1; // j is doneted by COLOUM 
+		while(col <= row)
 		{	
 			int value;
 			cout << " * ";
-			j = j + 1;
+			col = col + 1;
 		}
 		cout << endl;
-		i = i + 2;
+		row = row + 2;
 	}
 }
