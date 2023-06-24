@@ -7,12 +7,14 @@ int main()
 	cin >> n;
 	
 	int i = 1 ;//row
+	
 	while(i<=n)
 	{
 		int j = i; // col
+		
 		while(j<=n)
 		{	
-			cout << "*";
+			cout << " * ";
 			j = j + 1;
 		}
 		cout << endl;
