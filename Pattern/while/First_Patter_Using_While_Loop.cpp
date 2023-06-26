@@ -3,8 +3,9 @@ using namespace std;
 int main(){
 	
 	int n  ;
-	
-	while(){
+	cin << n;
+	int i=1;
+	while(i>=n){
 		cout << "positive";
 	}
 	cout << "negetive";
