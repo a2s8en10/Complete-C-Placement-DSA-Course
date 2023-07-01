@@ -11,13 +11,17 @@ int main()
 	{
 		int j = 1;
 		while(j<=n)
+		
 		{	
 		// i or j ko isliye ek sath liya hai
 		// kuyki row or colomn ek sth incriment ho rahe hai 
+		
 			char ch = 'A'+ i + j - 2 ;
 			cout << ch << " ";
 			j = j + 1;
+			
 		} 
+		
 		cout << endl;
 		i = i + 1;
 	}
