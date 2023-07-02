@@ -8,11 +8,13 @@ int main()
 	
 	int i = 1;
 	while(i<=n)
+	
 	{
 		int j = 1;
 		while(j<=n)
 		
 		{	
+		
 		// i or j ko isliye ek sath liya hai
 		// kuyki row or colomn ek sth incriment ho rahe hai 
 		
