@@ -8,9 +8,11 @@ int main()
 	
 	int i = 1;
 	while(i<=n)
+	
 	{
 		int space = n-i;
 		while(space)
+		
 		{
 			cout << " ";
 			space = space - 1;
